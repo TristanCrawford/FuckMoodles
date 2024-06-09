@@ -1,0 +1,9 @@
+require "ISUI/ISCollapsibleWindow"
+
+local FMUI = ISCollapsibleWindow:derive("FMUI");
+
+function FMUI:initialise()
+	ISCollapsibleWindow.initialise(self);
+end
+
+return FMUI;
